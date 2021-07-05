@@ -1,21 +1,5 @@
 # Speech Recognition with Python
 
-[![Known Vulnerabilities](http://snyk.io/test/github/mramshaw/Speech-Recognition/badge.svg?style=plastic&targetFile=requirements.txt)](http://snyk.io/test/github/mramshaw/Speech-Recognition?style=plastic&targetFile=requirements.txt)
-
-I stumbled across this great tutorial, so why not try it out?
-
-    http://realpython.com/python-speech-recognition/
-
-As recommended, we will use [SpeechRecognition](http://github.com/Uberi/speech_recognition).
-
-After setting up my own repo, I found the author's:
-
-    http://github.com/realpython/python-speech-recognition
-
-![Raspberry](images/favicon.png)
-
-This also works with Raspberry Pi (using Python 3).
-
 ## Contents
 
 The contents are as follows:
@@ -256,17 +240,6 @@ Run the guessing game as follows:
     $
 
 
-## Raspberry Pi
-
-![Raspberry Pi](images/little_pi.png)
-
-After hooking up a Raspberry Pi with a Logitech 4000 webcam (for its microphone)
-and configuring with AlsaMixer, everything worked pretty much as expected with
-Python 3.
-
-There were some installation stumbles, but `sudo apt-get update` fixed them.
-
-It turned out that `flac` was required so it was also installed.
 
 
 ## To Do
